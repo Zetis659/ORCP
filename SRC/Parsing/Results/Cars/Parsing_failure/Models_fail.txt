@@ -1,0 +1,1 @@
+parsed_brand_list = ['AUDI', 'OMODA']

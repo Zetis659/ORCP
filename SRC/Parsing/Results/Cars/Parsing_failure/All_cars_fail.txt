@@ -1,0 +1,3 @@
+parsed_brand_list = ['NISSAN'],
+parsed_model_list = ['MARCH', 'QASHQAI'],
+parsed_gens_list = ['8299522', '8299446', '8299426', '20333904', '20815863', '21060966', '20097928']

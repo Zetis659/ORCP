@@ -1,0 +1,2 @@
+parsed_brand_list = ['AUDI'],
+parsed_model_list = ['A6', 'A4', 'A3', 'Q7', 'A8']
