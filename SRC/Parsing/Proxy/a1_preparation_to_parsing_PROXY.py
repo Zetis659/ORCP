@@ -4,7 +4,6 @@ import requests
 import time
 import fake_useragent as fua
 from user_agents import parse
-from tqdm import tqdm
 import random as rnd
 
 sys.path.append(os.path.join("home", "zetis", "Документы", "VScode", "ORCP"))

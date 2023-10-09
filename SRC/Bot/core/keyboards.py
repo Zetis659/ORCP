@@ -21,7 +21,7 @@ main = ReplyKeyboardMarkup(
 git = InlineKeyboardMarkup(
     inline_keyboard=[
         [InlineKeyboardButton(text="Telegram", url="https://t.me/zetis_zs")],
-        [InlineKeyboardButton(text="GitHub", url="https://github.com/Zetis659")],
+        [InlineKeyboardButton(text="GitHub", url="https://github.com/Zetis659/ORCP")],
     ]
 )
 

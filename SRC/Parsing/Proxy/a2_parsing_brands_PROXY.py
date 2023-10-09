@@ -2,7 +2,6 @@ import sys
 import os
 from genericpath import exists
 import requests
-import time
 import fake_useragent as fua
 from user_agents import parse
 from tqdm import tqdm

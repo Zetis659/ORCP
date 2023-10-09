@@ -1,7 +1,6 @@
 from ultralytics import YOLO
 import os
 import time 
-import sys
 
 
 start = time.time()

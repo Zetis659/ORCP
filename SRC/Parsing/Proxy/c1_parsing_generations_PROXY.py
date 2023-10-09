@@ -5,7 +5,6 @@ import fake_useragent as fua
 import random as rnd
 from user_agents import parse
 from tqdm import tqdm
-import csv
 import os
 import sys
 
