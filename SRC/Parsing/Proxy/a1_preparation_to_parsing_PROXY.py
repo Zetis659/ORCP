@@ -75,4 +75,9 @@ if __name__ == "__main__":
     response = requests.post(url, json=params, headers=dict_headers, proxies=proxy)
     print(response.status_code)
     data = response.json()
-    print(f"JSON DATA: {data}")
+    try:
+        if data["type"] == "captcha":
+            print("CAPTCHA!")
+    except:
+        print(f"JSON DATA: {data}\n\nThe header is set correctly!!!")
+        
