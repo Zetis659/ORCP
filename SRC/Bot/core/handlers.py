@@ -965,7 +965,7 @@ async def details(callback: CallbackQuery):
 @router.message(F.photo)
 async def download_photo(message: Message):
     photo = await bot.get_file(message.photo[-1].file_id)
-    current_datetime = datetime.datetime.now().strftime("%d-%m-%Y-%H-%M-%S")
+    current_datetime = datetime.datetime.now().strftime("%Y-%m-%d_%H:%M:%S")
     photo_name = f"{current_datetime}.jpg"
     photo_path = os.path.join("Pictures", photo_name)
     await bot.download_file(photo.file_path, photo_path)

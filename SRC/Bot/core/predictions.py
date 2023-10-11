@@ -375,6 +375,7 @@ def yolo_results(img_path):
     finish = time.time()
     total_time = finish - start
     print(f"Total time prediction: {total_time:.2f}")
+    print(time.ctime(finish))
     if total_prob >= 80:
         return all_results
     elif total_prob >= 65:
