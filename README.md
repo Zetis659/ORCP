@@ -16,11 +16,11 @@
 <table>
   <tr>
     <td style="text-align: center;">
-      <img src="https://github.com/Zetis659/ORCP/blob/main/lixiang_ORCP.png" width="550">
+      <img src="https://github.com/Zetis659/ORCP/blob/main/lixiang_ORCP.png" width="600">
       <p>Умная камера Алисы <b>НЕ смогла определить</b> модель авто:</p>
     </td>
     <td style="text-align: center;">
-      <img src="https://github.com/Zetis659/ORCP/blob/main/kaiyi_ORCP.png" width="550">
+      <img src="https://github.com/Zetis659/ORCP/blob/main/kaiyi_ORCP.png" width="600">
       <p>Умная камера Алисы <b>НЕ смогла определить</b> модель авто:</p>
     </td>
   </tr>
