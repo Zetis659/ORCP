@@ -13,15 +13,16 @@
   <img src="https://github.com/Zetis659/ORCP/blob/main/hongqi_ORCP.png" width="650">
 </figure>
 
+
 <table>
   <tr>
     <td style="text-align: center;">
-      <img src="https://github.com/Zetis659/ORCP/blob/main/lixiang_ORCP.png" width="600">
       <p>Умная камера Алисы <b>НЕ смогла определить</b> модель авто:</p>
+      <img src="https://github.com/Zetis659/ORCP/blob/main/lixiang_ORCP.png" width="600">
     </td>
     <td style="text-align: center;">
-      <img src="https://github.com/Zetis659/ORCP/blob/main/kaiyi_ORCP.png" width="600">
       <p>Умная камера Алисы <b>НЕ смогла определить</b> модель авто:</p>
+      <img src="https://github.com/Zetis659/ORCP/blob/main/kaiyi_ORCP.png" width="600">
     </td>
   </tr>
 </table>
