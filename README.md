@@ -14,6 +14,9 @@
 
 ![Image alt](https://github.com/Zetis659/ORCP/blob/main/kaiyi_ORCP.png)
 
+<img src="https://github.com/Zetis659/ORCP/blob/main/kaiyi_ORCP.png" width="300">
+
+
 
 **Ссылки:**
 - [Бот ORCP в Telegram](https://t.me/ORCPbot)
