@@ -14,16 +14,19 @@
 </figure>
 
 
-<div style="display: flex;">
-  <div style="flex: 1; text-align: center;">
-    <img src="https://github.com/Zetis659/ORCP/blob/main/lixiang_ORCP.png" width="300" style="margin: 5px;">
-    <p>Подпись к первому изображению</p>
-  </div>
-  <div style="flex: 1; text-align: center;">
-    <img src="https://github.com/Zetis659/ORCP/blob/main/kaiyi_ORCP.png" width="300" style="margin: 5px;">
-    <p>Подпись ко второму изображению</p>
-  </div>
-</div>
+<table>
+  <tr>
+    <td style="text-align: center;">
+      <img src="https://github.com/Zetis659/ORCP/blob/main/lixiang_ORCP.png" width="300">
+      <p>Подпись к первому изображению</p>
+    </td>
+    <td style="text-align: center;">
+      <img src="https://github.com/Zetis659/ORCP/blob/main/kaiyi_ORCP.png" width="300">
+      <p>Подпись ко второму изображению</p>
+    </td>
+  </tr>
+</table>
+
 
 
 
