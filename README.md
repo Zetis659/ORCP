@@ -6,8 +6,12 @@
 Этот проект включает в себя: сбор данных, обучение моделей и развёртывание Telegram бота для предоставления пользователям информации о марке и модели автомобиля, а так же его стоимости на основе фотографий автомобиля.
 **Суть:** Пользователь отправляет фото автомобиля в Telegram бот **ORCP**, а бот использует обученную нейросеть классификации и детекции, которая определяет какая это марка, модель и поколение, а так же указывает рыночную стоимость автомобиля с помощью загруженной базы с сайта "auto.ru".
 ### ORCP vs умная камера Алисы
-![Image alt](https://github.com/Zetis659/ORCP/blob/main/hongqi_ORCP.png)
-![Image alt](https://github.com/Zetis659/ORCP/blob/main/lixiang_ORCP.png)
+![Image alt](https://github.com/Zetis659/ORCP/blob/main/hongqi_ORCP.png|300)
+**Умная камера Алисы не верно определила авто**
+
+![Image alt](https://github.com/Zetis659/ORCP/blob/main/lixiang_ORCP.png|400)
+
+
 ![Image alt](https://github.com/Zetis659/ORCP/blob/main/kaiyi_ORCP.png)
 
 
@@ -24,6 +28,7 @@
 
 ## Table of Contents
 - [ORCP — Optical Recognition of Cars and Prices](#orcp--optical-recognition-of-cars-and-prices)
+    - [ORCP vs умная камера Алисы](#orcp-vs-умная-камера-алисы)
   - [Table of Contents](#table-of-contents)
   - [Project Overview](#project-overview)
   - [Usage](#usage)
