@@ -9,9 +9,22 @@
 Примеры, в которых **ORCP** справился лучше в классификации авто, чем умная камера Алисы.
 
 <figure>
-  <img src="https://github.com/Zetis659/ORCP/blob/main/hongqi_ORCP.png" width="600">
-  <figcaption>Умная камера Алисы <b>НЕ верно определила</b> авто</figcaption>
+  <figcaption>Умная камера Алисы <b>НЕ верно определила</b> авто:</figcaption>
+  <img src="https://github.com/Zetis659/ORCP/blob/main/hongqi_ORCP.png" width="650">
 </figure>
+
+
+<div style="display: flex;">
+  <div style="flex: 1; text-align: center;">
+    <img src="[ссылка_на_первое_изображение](https://github.com/Zetis659/ORCP/blob/main/lixiang_ORCP.png)" width="500" style="margin: 5px;">
+    <p>Подпись к первому изображению</p>
+  </div>
+  <div style="flex: 1; text-align: center;">
+    <img src="[ссылка_на_второе_изображение](https://github.com/Zetis659/ORCP/blob/main/kaiyi_ORCP.png)" width="500" style="margin: 5px;">
+    <p>Подпись ко второму изображению</p>
+  </div>
+</div>
+
 
 <figure>
   <figcaption>Умная камера Алисы <b>НЕ смогла определить</b> модель авто:</figcaption>
