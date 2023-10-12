@@ -17,11 +17,11 @@
 <table>
   <tr>
     <td style="text-align: center;">
-      <img src="https://github.com/Zetis659/ORCP/blob/main/lixiang_ORCP.png" width="300">
+      <img src="https://github.com/Zetis659/ORCP/blob/main/lixiang_ORCP.png" width="500">
       <p>Подпись к первому изображению</p>
     </td>
     <td style="text-align: center;">
-      <img src="https://github.com/Zetis659/ORCP/blob/main/kaiyi_ORCP.png" width="300">
+      <img src="https://github.com/Zetis659/ORCP/blob/main/kaiyi_ORCP.png" width="500">
       <p>Подпись ко второму изображению</p>
     </td>
   </tr>
