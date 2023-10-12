@@ -8,7 +8,3 @@ link = 'https://api.ipify.org'
 res = requests.get(link, proxies=optional_proxy).text
 
 print(f'Ваш IP: {res}')
-
-
-# for i in range(100):
-#     print(f'SocksPort {9050+i}')
