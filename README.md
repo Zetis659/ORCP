@@ -10,38 +10,22 @@
 
 <figure>
   <figcaption>Умная камера Алисы <b>НЕ верно определила</b> авто:</figcaption>
-  <img src="https://github.com/Zetis659/ORCP/blob/main/hongqi_ORCP.png" width="650">
+  <img src="https://github.com/Zetis659/ORCP/blob/main/hongqi_ORCP.png" width="600">
+  <figcaption>Умная камера Алисы <b>НЕ верно определила</b> авто</figcaption>
 </figure>
-
 
 <table>
   <tr>
     <td style="text-align: center;">
       <img src="https://github.com/Zetis659/ORCP/blob/main/lixiang_ORCP.png" width="500">
-      <p>Подпись к первому изображению</p>
+      <p>Умная камера Алисы <b>НЕ смогла определить</b> модель авто:</p>
     </td>
     <td style="text-align: center;">
       <img src="https://github.com/Zetis659/ORCP/blob/main/kaiyi_ORCP.png" width="500">
-      <p>Подпись ко второму изображению</p>
+      <p>Умная камера Алисы <b>НЕ смогла определить</b> модель авто:</p>
     </td>
   </tr>
 </table>
-
-
-
-
-
-<figure>
-  <figcaption>Умная камера Алисы <b>НЕ смогла определить</b> модель авто:</figcaption>
-  <img src="https://github.com/Zetis659/ORCP/blob/main/lixiang_ORCP.png" width="650">
-</figure>
-
-<figure>
-  <img src="https://github.com/Zetis659/ORCP/blob/main/kaiyi_ORCP.png" width="700">
-  <figcaption>Умная камера Алисы НЕ смогла определить модель авто</figcaption>
-</figure>
-
-
 
 **Ссылки:**
 - [Бот ORCP в Telegram](https://t.me/ORCPbot)
