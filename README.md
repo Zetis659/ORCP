@@ -7,19 +7,19 @@
 **Суть:** Пользователь отправляет фото автомобиля в Telegram бот **ORCP**, а бот использует обученную нейросеть классификации и детекции, которая определяет какая это марка, модель и поколение, а так же указывает рыночную стоимость автомобиля с помощью загруженной базы с сайта "auto.ru".
 ### ORCP vs умная камера Алисы
 Примеры, в которых **ORCP** справился лучше в классификации авто, чем умная камера Алисы.
+
 <figure>
   <img src="https://github.com/Zetis659/ORCP/blob/main/hongqi_ORCP.png" width="600">
-  <figcaption>Умная камера Алисы НЕ верно определила авто</figcaption>
+  <figcaption>Умная камера Алисы <b>НЕ верно определила</b> авто</figcaption>
 </figure>
 
 <figure>
-  <img src="https://github.com/Zetis659/ORCP/blob/main/lixiang_ORCP.png" width="400">
-  <figcaption>Умная камера Алисы НЕ смогла определить модель авто</figcaption>
+  <figcaption>Умная камера Алисы <b>НЕ смогла определить</b> модель авто:</figcaption>
+  <img src="https://github.com/Zetis659/ORCP/blob/main/lixiang_ORCP.png" width="650">
 </figure>
 
-
 <figure>
-  <img src="https://github.com/Zetis659/ORCP/blob/main/kaiyi_ORCP.png" width="500">
+  <img src="https://github.com/Zetis659/ORCP/blob/main/kaiyi_ORCP.png" width="700">
   <figcaption>Умная камера Алисы НЕ смогла определить модель авто</figcaption>
 </figure>
 
