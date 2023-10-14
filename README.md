@@ -30,9 +30,9 @@
 
 **Ссылки:**
 - [Бот ORCP в Telegram](https://t.me/ORCPbot)
-- [Веса моей модели классификации](https://drive.google.com/file/d/1E1mIXgHqpur8e2woJ86jKX7pHcCcFJic/view?usp=drive_link)
-- [Веса модели классификации YOLOv8x](https://drive.google.com/file/d/1LpgIJ9-WWDXMlXnDWocDf65ep80nOB77/view?usp=drive_link)
-- [Веса модели детекции YOLOv8x](https://drive.google.com/file/d/1S42IQZKm2Mnw6nsbGeST4Ao9LtwmlIYH/view?usp=drive_link)
+- [Веса моей модели классификации YOLOv8x](https://drive.google.com/file/d/1E1mIXgHqpur8e2woJ86jKX7pHcCcFJic/view?usp=drive_link)
+- [Стоковые веса модели классификации YOLOv8x](https://drive.google.com/file/d/1LpgIJ9-WWDXMlXnDWocDf65ep80nOB77/view?usp=drive_link)
+- [Стоковые веса модели детекции YOLOv8x](https://drive.google.com/file/d/1S42IQZKm2Mnw6nsbGeST4Ao9LtwmlIYH/view?usp=drive_link)
 - [База загруженных авто](https://drive.google.com/file/d/1s6hamNrSZACgzBNVL7jES3M25XLlGWFT/view?usp=drive_link)
 - [Ссылки на фото китайских авто](https://drive.google.com/file/d/1-SriKOyJjJq_0TyK8bfAamKST8dGv6js/view?usp=sharing)
 - [Загруженные фото китайских авто для модели](https://drive.google.com/file/d/1220iqpGq6Xhwf4KEH9yDBuEo5QxL2IH9/view?usp=sharing)
