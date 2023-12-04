@@ -1,3 +1,4 @@
+from SRC.Parsing.Proxy.a1_preparation_to_parsing_PROXY import dict_headers
 from genericpath import exists
 import requests
 import time
@@ -9,11 +10,11 @@ import os
 import sys
 
 sys.path.insert(1, os.path.join(sys.path[0], "..", "..", ".."))
-from SRC.Parsing.Proxy.a1_preparation_to_parsing_PROXY import dict_headers
 
 
 start = time.time()
-black_list_mobile = ["smartphone", "iphone", "ipad", "ipod", "windows ce", "htc"]
+black_list_mobile = ["smartphone", "iphone",
+                     "ipad", "ipod", "windows ce", "htc"]
 
 while True:
     user = fua.UserAgent().random
@@ -34,7 +35,8 @@ proxy = {"https": tor}
 total_captcha = 0
 
 url = "https://auto.ru/-/ajax/desktop/listing/"
-txt_path = os.path.join("SRC", "Parsing", "Results", "Cars", "Brands", "brands.txt")
+txt_path = os.path.join("SRC", "Parsing", "Results",
+                        "Cars", "Brands", "brands.txt")
 with open(txt_path, "r", encoding="utf-8") as f:
     brands = f.read()
 
@@ -96,7 +98,8 @@ for brand in brands_list:
             "sort": "fresh_relevance_1-desc",
         }
 
-        response = requests.post(url, json=params, headers=dict_headers, proxies=proxy)
+        response = requests.post(
+            url, json=params, headers=dict_headers, proxies=proxy)
 
         page_count = response.json()["pagination"]["total_page_count"]
         if page_count > 100:
@@ -189,7 +192,8 @@ for brand in brands_list:
             print(generations_names_list)
 
             total_generations += len(generations_list)
-            print(f"Models of different brands was parsed: {total_generations}")
+            print(
+                f"Models of different brands was parsed: {total_generations}")
             print(f"Total CAPTCHA: {total_captcha}")
 
         txt_file_path = os.path.join(

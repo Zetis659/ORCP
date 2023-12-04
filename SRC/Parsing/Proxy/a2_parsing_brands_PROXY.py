@@ -1,3 +1,4 @@
+from SRC.Parsing.Proxy.a1_preparation_to_parsing_PROXY import dict_headers
 import sys
 import os
 from genericpath import exists
@@ -9,11 +10,11 @@ import random as rnd
 import time
 
 sys.path.insert(1, os.path.join(sys.path[0], "..", "..", ".."))
-from SRC.Parsing.Proxy.a1_preparation_to_parsing_PROXY import dict_headers
 
 
 start = time.time()
-black_list_mobile = ["smartphone", "iphone", "ipad", "ipod", "windows ce", "htc"]
+black_list_mobile = ["smartphone", "iphone",
+                     "ipad", "ipod", "windows ce", "htc"]
 
 while True:
     user = fua.UserAgent().random
@@ -87,7 +88,8 @@ for page in tqdm(range(1, page_count + 1)):
     print(f"PORT: {tor}")
     print(f"RANDOM IP IN A ROW: {random_ip+1}")
 
-    response = requests.post(url, json=params, headers=dict_headers, proxies=proxy)
+    response = requests.post(
+        url, json=params, headers=dict_headers, proxies=proxy)
     data = response.json()
     try:
         if data["type"] == "captcha":
@@ -99,7 +101,8 @@ for page in tqdm(range(1, page_count + 1)):
 
         for ad in range(1, len(data)):
             try:
-                car_brand_csv = str(data[ad]["vehicle_info"]["mark_info"]["code"])
+                car_brand_csv = str(
+                    data[ad]["vehicle_info"]["mark_info"]["code"])
             except:
                 pass
 

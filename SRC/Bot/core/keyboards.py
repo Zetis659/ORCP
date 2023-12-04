@@ -21,16 +21,19 @@ main = ReplyKeyboardMarkup(
 git = InlineKeyboardMarkup(
     inline_keyboard=[
         [InlineKeyboardButton(text="Telegram", url="https://t.me/zetis_zs")],
-        [InlineKeyboardButton(text="GitHub", url="https://github.com/Zetis659/ORCP")],
+        [InlineKeyboardButton(
+            text="GitHub", url="https://github.com/Zetis659/ORCP")],
     ]
 )
 
 details = InlineKeyboardMarkup(
-    inline_keyboard=[[InlineKeyboardButton(text="Подробнее", callback_data="details")]]
+    inline_keyboard=[[InlineKeyboardButton(
+        text="Подробнее", callback_data="details")]]
 )
 
 back = InlineKeyboardMarkup(
-    inline_keyboard=[[InlineKeyboardButton(text="🔙 Назад", callback_data="back")]]
+    inline_keyboard=[[InlineKeyboardButton(
+        text="🔙 Назад", callback_data="back")]]
 )
 
 brands = InlineKeyboardMarkup(
@@ -51,7 +54,8 @@ brands = InlineKeyboardMarkup(
             InlineKeyboardButton(text="Geely", callback_data="geely"),
         ],
         [
-            InlineKeyboardButton(text="Great Wall", callback_data="great_wall"),
+            InlineKeyboardButton(
+                text="Great Wall", callback_data="great_wall"),
             InlineKeyboardButton(text="Haval", callback_data="haval"),
             InlineKeyboardButton(text="Hongqi", callback_data="hongqi"),
         ],

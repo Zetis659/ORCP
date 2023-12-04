@@ -8,6 +8,7 @@ pictures_quantity = 500
 picture_size = '456x342n.txt'
 car_brand = 'HAVAL'
 
+
 def download_images_from_file(file_path, download_folder):
     with open(file_path, 'r') as file:
         lines = file.readlines()[:pictures_quantity]
@@ -25,13 +26,17 @@ def download_images_from_file(file_path, download_folder):
 
                 with open(image_path, 'wb') as image_file:
                     image_file.write(response.content)
-                print(f'Image {idx + 1} downloaded successfully from {file_path}.')
+                print(
+                    f'Image {idx + 1} downloaded successfully from {file_path}.')
 
             else:
-                print(f'Failed to download image {idx + 1} from {file_path} with status code: {response.status_code}')
+                print(
+                    f'Failed to download image {idx + 1} from {file_path} with status code: {response.status_code}')
 
         except Exception as e:
-            print(f'Failed to download image {idx + 1} from {file_path} due to error: {e}')
+            print(
+                f'Failed to download image {idx + 1} from {file_path} due to error: {e}')
+
 
 def process_folders(root_folder):
     for folder_name in os.listdir(root_folder):
@@ -40,11 +45,13 @@ def process_folders(root_folder):
             for file_name in os.listdir(folder_path):
                 if file_name.endswith(picture_size):
                     file_path = os.path.join(folder_path, file_name)
-                    download_folder = os.path.join('Downloads', car_brand, folder_name, os.path.splitext(file_name)[0])
+                    download_folder = os.path.join(
+                        'Downloads', car_brand, folder_name, os.path.splitext(file_name)[0])
                     if not os.path.exists(download_folder):
                         os.makedirs(download_folder)
-                    
+
                     download_images_from_file(file_path, download_folder)
+
 
 if __name__ == '__main__':
     root_folder = os.path.join('SRC/Parsing/Results/Photo_links', car_brand)

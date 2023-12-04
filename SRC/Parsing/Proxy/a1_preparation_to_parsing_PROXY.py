@@ -10,7 +10,8 @@ sys.path.append(os.path.join("home", "zetis", "Документы", "VScode", "O
 
 
 start = time.time()
-black_list_mobile = ["smartphone", "iphone", "ipad", "ipod", "windows ce", "htc"]
+black_list_mobile = ["smartphone", "iphone",
+                     "ipad", "ipod", "windows ce", "htc"]
 
 while True:
     user = fua.UserAgent().random
@@ -72,7 +73,8 @@ for header in headers:
 (dict_headers["User-Agent"]) = user
 
 if __name__ == "__main__":
-    response = requests.post(url, json=params, headers=dict_headers, proxies=proxy)
+    response = requests.post(
+        url, json=params, headers=dict_headers, proxies=proxy)
     print(response.status_code)
     data = response.json()
     try:
@@ -80,4 +82,3 @@ if __name__ == "__main__":
             print("CAPTCHA!")
     except:
         print(f"JSON DATA: {data}\n\nThe header is set correctly!!!")
-        

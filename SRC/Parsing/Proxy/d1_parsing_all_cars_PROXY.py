@@ -1,3 +1,4 @@
+from SRC.Parsing.Proxy.a1_preparation_to_parsing_PROXY import dict_headers
 from genericpath import exists
 import requests
 import time
@@ -10,10 +11,10 @@ import os
 import sys
 
 sys.path.insert(1, os.path.join(sys.path[0], "..", "..", ".."))
-from SRC.Parsing.Proxy.a1_preparation_to_parsing_PROXY import dict_headers
 
 start = time.time()
-black_list_mobile = ["smartphone", "iphone", "ipad", "ipod", "windows ce", "htc"]
+black_list_mobile = ["smartphone", "iphone",
+                     "ipad", "ipod", "windows ce", "htc"]
 
 while True:
     user = fua.UserAgent().random
@@ -33,7 +34,8 @@ proxy = {"https": tor}
 total_captcha = 0
 
 url = "https://auto.ru/-/ajax/desktop/listing/"
-txt_path = os.path.join("SRC", "Parsing", "Results", "Cars", "Brands", "brands.txt")
+txt_path = os.path.join("SRC", "Parsing", "Results",
+                        "Cars", "Brands", "brands.txt")
 with open(txt_path, "r", encoding="utf-8") as f:
     brands = f.read()
 
@@ -257,7 +259,8 @@ for brand in brands_list:
                                 engine_power_csv = ""
 
                             try:
-                                availability_csv = str(data[ad]["availability"])
+                                availability_csv = str(
+                                    data[ad]["availability"])
                             except:
                                 availability_csv = ""
 
@@ -277,7 +280,8 @@ for brand in brands_list:
                                 car_type_csv = ""
 
                             try:
-                                condition_csv = str(data[ad]["state"]["condition"])
+                                condition_csv = str(
+                                    data[ad]["state"]["condition"])
                             except:
                                 condition_csv = ""
 
@@ -287,12 +291,14 @@ for brand in brands_list:
                                 price_csv = ""
 
                             try:
-                                price_dollar_csv = str(data[ad]["price_info"]["USD"])
+                                price_dollar_csv = str(
+                                    data[ad]["price_info"]["USD"])
                             except:
                                 price_dollar_csv = ""
 
                             try:
-                                price_euro_csv = str(data[ad]["price_info"]["EUR"])
+                                price_euro_csv = str(
+                                    data[ad]["price_info"]["EUR"])
                             except:
                                 price_euro_csv = ""
 
@@ -376,7 +382,8 @@ for brand in brands_list:
                                 acceleration_csv = ""
 
                             try:
-                                vendor_csv = str(data[ad]["vehicle_info"]["vendor"])
+                                vendor_csv = str(
+                                    data[ad]["vehicle_info"]["vendor"])
                             except:
                                 vendor_csv = ""
 
@@ -388,7 +395,8 @@ for brand in brands_list:
                                 customs_csv = ""
 
                             try:
-                                owners_csv = str(data[ad]["documents"]["owners_number"])
+                                owners_csv = str(
+                                    data[ad]["documents"]["owners_number"])
                             except:
                                 owners_csv = ""
 
@@ -459,15 +467,18 @@ for brand in brands_list:
 
                             for img in data[ad]["state"]["image_urls"]:
                                 try:
-                                    img_url_1200x900n.append(img["sizes"]["1200x900n"])
+                                    img_url_1200x900n.append(
+                                        img["sizes"]["1200x900n"])
                                 except:
                                     pass
                                 try:
-                                    img_url_456x342n.append(img["sizes"]["456x342n"])
+                                    img_url_456x342n.append(
+                                        img["sizes"]["456x342n"])
                                 except:
                                     pass
                                 try:
-                                    img_url_320x240.append(img["sizes"]["320x240"])
+                                    img_url_320x240.append(
+                                        img["sizes"]["320x240"])
                                 except:
                                     pass
 
@@ -547,7 +558,8 @@ for brand in brands_list:
                                 csv_file_path, mode="a", newline="", encoding="utf-8"
                             ) as csvfile:
                                 writer = csv.writer(csvfile)
-                                is_empty_file = os.path.getsize(csv_file_path) == 0
+                                is_empty_file = os.path.getsize(
+                                    csv_file_path) == 0
                                 if is_empty_file:
                                     writer.writerow(
                                         [
@@ -636,9 +648,11 @@ for brand in brands_list:
                                     ]
                                 )
 
-                        print(f"Page: {page} - {brand} {model} {generation_csv}")
+                        print(
+                            f"Page: {page} - {brand} {model} {generation_csv}")
 
-            print(f"Generation: {brand} {model} {generation_csv} - {gen} was parsed!")
+            print(
+                f"Generation: {brand} {model} {generation_csv} - {gen} was parsed!")
             print(f"Total Gens was parsed: {count_gens}")
         print(f" Model: {brand} {model} was parsed!!!")
         print(f"Total models was parsed {count_models}")

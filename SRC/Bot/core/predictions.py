@@ -239,8 +239,10 @@ def yolo_results(img_path):
             if quartile_25 == None or quartile_75 == None:
                 all_results = f"Вероятность совпадения авто 🚗: {total_prob}% \nБренд: <b>{my_brand}</b>\nМодель: <b>{my_model}</b>\n{years}"
             else:
-                formatted_quartile_25 = "{:,.0f}".format(quartile_25).replace(",", ".")
-                formatted_quartile_75 = "{:,.0f}".format(quartile_75).replace(",", ".")
+                formatted_quartile_25 = "{:,.0f}".format(
+                    quartile_25).replace(",", ".")
+                formatted_quartile_75 = "{:,.0f}".format(
+                    quartile_75).replace(",", ".")
                 all_results = f"Вероятность совпадения авто 🚗: {total_prob}% \nБренд: <b>{my_brand}</b>\nМодель: <b>{my_model}</b>\n{years}\nСредняя стоимость авто: <b>от {formatted_quartile_25} до {formatted_quartile_75}</b> ₽"
 
     else:
@@ -368,8 +370,10 @@ def yolo_results(img_path):
             if quartile_25 == None or quartile_75 == None:
                 all_results = f"Вероятность совпадения авто 🚗: {total_prob}% \nБренд: <b>{my_brand}</b>\nМодель: <b>{my_model}</b>\nПоколение: <b>{my_gen}</b>\n{years}"
             else:
-                formatted_quartile_25 = "{:,.0f}".format(quartile_25).replace(",", ".")
-                formatted_quartile_75 = "{:,.0f}".format(quartile_75).replace(",", ".")
+                formatted_quartile_25 = "{:,.0f}".format(
+                    quartile_25).replace(",", ".")
+                formatted_quartile_75 = "{:,.0f}".format(
+                    quartile_75).replace(",", ".")
                 all_results = f"Вероятность совпадения авто 🚗: {total_prob}% \nБренд: <b>{my_brand}</b>\nМодель: <b>{my_model}</b>\nПоколение: <b>{my_gen}</b>\n{years}\nСредняя стоимость авто: <b>от {formatted_quartile_25} до {formatted_quartile_75}</b> ₽"
 
     finish = time.time()
